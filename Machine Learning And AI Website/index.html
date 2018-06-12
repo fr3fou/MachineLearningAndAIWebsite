@@ -1,0 +1,210 @@
+﻿<!DOCTYPE HTML>
+<html lang="bg">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+
+    <style>
+
+        .navbar
+        {
+            position: fixed;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 10px;
+        }
+        #ML
+        {
+            width: 13%;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: transparent;
+            color: white;
+            cursor: pointer;
+        }
+        #ML:hover
+        {
+            background-color: red;
+        }
+        #AI
+        {
+
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: transparent;
+            color: white;
+            cursor: pointer;
+        }
+        #AI:hover
+        {
+            background-color: red;
+        }
+        .dropdownUse
+        {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdownUse:hover
+        {
+            background-color: red;
+        }
+        .dropdown-contentUse
+        {
+            display: none;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-contentUse a
+        {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-contentUse a:hover
+        {
+            background-color: red;
+        }
+        .dropdownUse:hover .dropdown-contentUse
+        {
+            display: block;
+        }
+
+        #Use
+        {
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: transparent;
+            color: white;
+            cursor: pointer;
+        }
+        #Use:hover
+        {
+            background-color: red;
+        }
+
+        #History
+        {
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: transparent;
+            color: white;
+            cursor: pointer;
+        }
+
+        #History:hover
+        {
+            background-color: red;
+        }
+
+        .dropdownQuestions
+        {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdownQuestions:hover
+        {
+            background-color: red;
+        }
+        .dropdown-contentQuestions
+        {
+            display: none;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.5);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-contentQuestions a
+        {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-contentQuestions a:hover
+        {
+            background-color: red;
+        }
+        .dropdownQuestions:hover .dropdown-contentQuestions
+        {
+            display: block;
+        }
+
+        #Questions
+        {
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: transparent;
+            color: white;
+            cursor: pointer;
+        }
+
+        #Questions:hover
+        {
+            background-color: red;
+        }
+
+        body
+        {
+            margin: 0;
+            font-family: Arial;
+            font-size: 17px;
+        }
+
+        a:link
+        {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:visited
+        {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+    </style>
+
+    <title>ML and AI</title>
+</head>
+<body background = "pictures/ML.jpg">
+
+<div class = "navbar" >
+    <button id=ML><a href="files/ML.html">Machine Learning</a></button>
+    <button id ="AI">Artificial intelligence</button>
+
+    <div class = "dropdownUse">
+        <button id ="Use">Use</button>
+        <div class="dropdown-contentUse">
+            <a href="files/">Business</a>
+            <a href="files/">Robots</a>
+            <a href="files/">Complex problems</a>
+        </div>
+    </div>
+
+    <button id ="History">History</button>
+
+    <div class = "dropdownQuestions">
+        <button id ="Questions">Questions</button>
+        <div class="dropdown-contentQuestions">
+            <a href="files/">Question 1</a>
+            <a href="files/">Question 2</a>
+            <a href="files/">Question 3</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
