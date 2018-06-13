@@ -1,0 +1,28 @@
+body {
+    background: url(../pictures/poster.jpg) no-repeat center center fixed;
+    webkit-background-size: cover;
+    moz-background-size: cover;
+    o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.content {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.content2 {
+    position: fixed;
+    bottom: 0%;
+    top: 23%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
